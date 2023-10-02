@@ -15,9 +15,9 @@ internal class Program
         string nome = Console.ReadLine();
         Console.WriteLine("Endereço completo: ");
         string endereco = Console.ReadLine();
-        Console.WriteLine("Endereço telefone (apenas dígitos): ");
+        Console.WriteLine("Telefone (apenas dígitos): ");
         long telefone = long.Parse(Console.ReadLine());
-        Console.WriteLine("Endereço CPF (apenas dígitos): ");
+        Console.WriteLine("CPF (apenas dígitos): ");
         long cpf = long.Parse(Console.ReadLine());
         Pessoa pessoa1 = new(nome, endereco, telefone, cpf); //objeto pessoa
         // livro:

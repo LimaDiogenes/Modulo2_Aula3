@@ -4,9 +4,9 @@ namespace Aula3_Enunciado2
 {
     internal class Livro
     {
-        private string titulo;
-        private string autor;
-        private int paginas;
+        internal string titulo;
+        internal string autor;
+        internal int paginas;
 
         /// <summary>
         /// Cria um objeto Livro. Parametros sao obrigatorios.

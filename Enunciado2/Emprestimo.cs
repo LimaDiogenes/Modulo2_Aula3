@@ -4,11 +4,11 @@ namespace Aula3_Enunciado2
     internal class Emprestimo
     {
         //Propriedades:
-        internal DateOnly DataEmprestimo { get; set; }
-        internal DateOnly DataEstorno { get; set; }
-        internal DateOnly DataEstimadaEstorno { get; set; }
-        internal Pessoa Pessoa { get; set; }
-        internal Livro Livro { get; set; }
+        private DateOnly DataEmprestimo { get; set; }
+        private DateOnly DataEstorno { get; set; }
+        private DateOnly DataEstimadaEstorno { get; set; }
+        private Pessoa Pessoa { get; set; }
+        private Livro Livro { get; set; }
 
         /// <summary>
         /// Metodo construtor. Necessita objetos Pessoa e Livro.
@@ -39,7 +39,7 @@ namespace Aula3_Enunciado2
                 DataEstimadaEstorno = DataEmprestimo.AddDays(dias);
             }
 
-            return $"Livro emprestado dia {DataEmprestimo}. Prazo para retorno: {DataEstimadaEstorno}";
+            return $"Livro {Livro.titulo} emprestado dia {DataEmprestimo} para {Pessoa.nome}. Prazo para retorno: {DataEstimadaEstorno}";
 
         }
         /// <summary>

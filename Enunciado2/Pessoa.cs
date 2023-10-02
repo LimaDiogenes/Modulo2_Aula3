@@ -3,10 +3,10 @@ namespace Aula3_Enunciado2
 {
     internal class Pessoa
     {
-        private string nome;
-        private string endereco;
-        private long telefone;
-        private long cpf;
+        internal string nome;
+        internal string endereco;
+        internal long telefone;
+        internal long cpf;
 
         /// <summary>
         /// Cria um objeto Pessoa. Parâmetros sao obrigatórios.
