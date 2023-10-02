@@ -1,5 +1,11 @@
 ﻿
 using System;
+//Escreva uma classe cujos objetos representam alunos matriculados em uma disciplina. Cada objeto
+//dessa classe deve guardar os seguintes dados do aluno: matrícula, nome,
+//2 notas de prova e 1 nota de trabalho.
+//Escreva os seguintes métodos para esta classe:
+//registrar nota de cada prova e trabalho
+//calcula a média final do aluno(cada prova tem peso 2,5 e o trabalho tem peso 2).
 
 namespace Aula3_Enunciado1
 {
@@ -7,12 +13,6 @@ namespace Aula3_Enunciado1
     {
         static void Main()
         {
-            //Escreva uma classe cujos objetos representam alunos matriculados em uma disciplina. Cada objeto
-            //dessa classe deve guardar os seguintes dados do aluno: matrícula, nome,
-            //2 notas de prova e 1 nota de trabalho.
-            //Escreva os seguintes métodos para esta classe:
-            //registrar nota de cada prova e trabalho
-            //calcula a média final do aluno(cada prova tem peso 2,5 e o trabalho tem peso 2).
 
             while (true)
             {
